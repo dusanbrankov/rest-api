@@ -1,0 +1,18 @@
+{
+	"version": "2",
+	"sql": [
+		{
+			"engine": "mysql",
+			"queries": "query.sql",
+			"schema": "cmd/migrate/migrations",
+			"gen": {
+				"go": {
+					"package": "sqlc",
+					"out": "sqlc"
+				}
+			}
+		}
+	]
+}
+
+
